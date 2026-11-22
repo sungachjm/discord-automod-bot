@@ -1,0 +1,15 @@
+# DANH SÁCH TỪ CẤM
+# - Mỗi dòng một từ hoặc cụm từ (tối đa 60 ký tự, tối đa 1000 dòng)
+# - Dòng bắt đầu bằng # là ghi chú, bot bỏ qua
+# - Không phân biệt hoa thường
+# - Dùng dấu * làm ký tự đại diện:
+#     bad*    chặn mọi từ bắt đầu bằng "bad" (bad, badword, ...)
+#     *bad    chặn mọi từ kết thúc bằng "bad"
+#     *bad*   chặn mọi từ chứa "bad"
+#     bad     chỉ chặn đúng từ "bad"
+# - Thêm hoặc xoá dòng rồi push lên GitHub, Render deploy lại là bot tự cập nhật
+#   (hoặc chạy /automod words sync để cập nhật ngay)
+# - Từ nào xoá khỏi file thì cũng bị gỡ khỏi danh sách cấm của bot
+
+# Từ dùng để thử bot, nhớ xoá dòng này khi chạy thật
+testbanword
